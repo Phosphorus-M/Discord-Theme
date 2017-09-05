@@ -28,33 +28,10 @@ textarea {
     background: transparent !important;
 }
 
-
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    border: 3px solid rgba(255,255,255,0) !important;
-    background-color: #D62929 !important;
-    background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
-}
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    border: 3px solid rgba(255,255,255,0) !important;
-    background-color: rgba(0,0,0,0.3) !important;
-}
-
-/*
-                           _                           _       
-  ___ ___  _ __ ___    ___| | ___ _ __ ___   ___ _ __ | |_ ___ 
- / __/ _ \| '__/ _ \  / _ \ |/ _ \ '_ ` _ \ / _ \ '_ \| __/ __|
-| (_| (_) | | |  __/ |  __/ |  __/ | | | | |  __/ | | | |_\__ \
- \___\___/|_|  \___|  \___|_|\___|_| |_| |_|\___|_| |_|\__|___/
-
-*/
-
-textarea {
-    background: transparent !important;
-}
-
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     border: 3px solid rgba(255,255,255,0) !important;
     background-color: #866c1d !important;
+    background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent);
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -1348,7 +1325,7 @@ textarea {
     padding: 0 !important;
 }
 /* Status */
-.header-3mZJcV .avatarStatusOnline-3Io--E{
+.header-3mZJcV .avatarStatusOnline-3Io--E, .header-3mZJcV .avatarStatusIdle-3ADLtR, .header-3mZJcV .avatarStatusDnd-31uU1Q, .header-3mZJcV .avatarStatusOffline-3tuNny, .header-3mZJcV .avatarStatusInvisible-135znp{
     width: 252px;
     height: 8px;
     bottom: -8px;
@@ -3692,15 +3669,14 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 .chat .message-group .comment {margin: -12px 0 -4px;}
 .emoji{min-width: 32px !important; min-height: 32px !important;}
 /*
-  ____                _____         _     ____   ___  _ _____ 
- / ___|  ___ _ __    |___ / _ __ __| |   |___ \ / _ \/ |___  |
- \___ \ / _ \ '_ \     |_ \| '__/ _` |     __) | | | | |  / / 
-  ___) |  __/ |_) |   ___) | | | (_| |_   / __/| |_| | | / /  
- |____/ \___| .__(_) |____/|_|  \__,_( ) |_____|\___/|_|/_/   
-  _____ _   |_|                    __|/   __   ___   ___   _  
- |_   _| |__   ___ _ __ ___   ___  \ \   / /  / _ \ / _ \ / | 
-   | | | '_ \ / _ \ '_ ` _ \ / _ \  \ \ / /  | | | | | | || | 
-   | | | | | |  __/ | | | | |  __/   \ V /   | |_| | |_| || | 
-   |_| |_| |_|\___|_| |_| |_|\___|    \_(_)   \___(_)___(_)_| 
+  ____                ____  _   _         ____   ___  _ _____    
+ / ___|  ___ _ __    | ___|| |_| |__     |___ \ / _ \/ |___  |   
+ \___ \ / _ \ '_ \   |___ \| __| '_ \      __) | | | | |  / /    
+  ___) |  __/ |_) |   ___) | |_| | | |_   / __/| |_| | | / /     
+ |____/ \___| .__(_) |____/ \__|_| |_( ) |_____|\___/|_|/_/____  
+ |_   _| |__|_|___ _ __ ___   ___  \ \/  / /  / _ \ / _ \ |___ \ 
+   | | | '_ \ / _ \ '_ ` _ \ / _ \  \ \ / /  | | | | | | |  __) |
+   | | | | | |  __/ | | | | |  __/   \ V /   | |_| | |_| | / __/ 
+   |_| |_| |_|\___|_| |_| |_|\___|    \_(_)   \___(_)___(_)_____|
                                                               
 */
