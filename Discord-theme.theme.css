@@ -2252,6 +2252,7 @@ textarea {
 
 #user-profile-modal {
     border-radius: 5px;
+    width: 750px;
 }
 
 #user-profile-modal .header {
@@ -2298,6 +2299,11 @@ textarea {
 #user-profile-modal .avatar-profile {
     width: 126px !important;
     height: 126px !important;
+}
+#user-profile-modal .header .header-info .header-info-inner{
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
 }
 
 #user-profile-modal .header .header-info .header-info-inner .discord-tag {
@@ -2942,10 +2948,11 @@ textarea {
   height: 150px  !important;
 }
 
-#user-profile-modal .header .username
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username
 {
  /* Username */
   color: #ffffff  !important;
+  max-width: 600px;
 }
 
 #user-profile-modal .header .discriminator
@@ -3668,14 +3675,13 @@ div.platform-win .user-settings-modal .tab-bar.SIDE .tab-bar-item:nth-of-type(15
 .emoji{min-width: 32px !important; min-height: 32px !important;}
 .bda-dark .emoji-picker .scroller .emoji-item.selected{ background-size: 28px !important;}
 /*
-  ____                _  ___  _   _         ____   ___  _ _____  
- / ___|  ___ _ __    / |/ _ \| |_| |__     |___ \ / _ \/ |___  | 
- \___ \ / _ \ '_ \   | | | | | __| '_ \      __) | | | | |  / /  
-  ___) |  __/ |_) |  | | |_| | |_| | | |_   / __/| |_| | | / /   
- |____/ \___| .__(_) |_|\___/ \__|_|_|_( )_|_____|\___/|_|/_/___ 
- |_   _| |__|_|___ _ __ ___   ___  \ \ |// /  / _ \ / _ \ |___ / 
-   | | | '_ \ / _ \ '_ ` _ \ / _ \  \ \ / /  | | | | | | |  |_ \ 
-   | | | | | |  __/ | | | | |  __/   \ V /   | |_| | |_| | ___) |
-   |_| |_| |_|\___|_| |_| |_|\___|    \_(_)   \___(_)___(_)____/ 
-                                                                 
+  ____                _ _  _   _   _         ____   ___  _ _____ 
+ / ___|  ___ _ __    / | || | | |_| |__     |___ \ / _ \/ |___  |
+ \___ \ / _ \ '_ \   | | || |_| __| '_ \      __) | | | | |  / / 
+  ___) |  __/ |_) |  | |__   _| |_| | | |_   / __/| |_| | | / /  
+ |____/ \___| .__(_) |_|  |_|  \__|_| |_( )_|_____|\___/|_|/_/   
+ |_   _| |__|_|___ _ __ ___   ___  \ \  |/ /  / _ \ / _ \| || |  
+   | | | '_ \ / _ \ '_ ` _ \ / _ \  \ \ / /  | | | | | | | || |_ 
+   | | | | | |  __/ | | | | |  __/   \ V /   | |_| | |_| |__   _|
+   |_| |_| |_|\___|_| |_| |_|\___|    \_(_)   \___(_)___(_) |_|  
 */
